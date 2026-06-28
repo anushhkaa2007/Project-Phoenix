@@ -1,0 +1,32 @@
+body {
+  background-color:#dfaa8c;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #0f0202;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 18px;
+  color: #190b0b;
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 16px;
+  padding: 12px 32px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
