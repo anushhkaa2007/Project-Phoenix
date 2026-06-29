@@ -30,3 +30,60 @@ button {
   border: none;
   cursor: pointer;
 }
+
+.dashboard {
+  max-width: 860px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.greeting {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.day-counter {
+  font-size: 16px;
+  color: #555555;
+}
+
+.date {
+  font-size: 16px;
+  color: #555555;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  flex: 1;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 24px;
+}
+
+.card h2 {
+  font-size: 16px;
+  color: #888888;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card p {
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
