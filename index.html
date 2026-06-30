@@ -17,21 +17,27 @@
 
       <div class="top-bar">
         <p class="greeting">Good Morning, Anushka! ☀️</p>
-        <p class="day-counter">Day 2 of 15</p>
+        <p class="day-counter">Day 3 of 15</p>
         <p class="date" id="today-date"></p>
       </div>
 
       <div class="cards">
 
-        <div class="card">
-          <h2>Today's Mission</h2>
-          <p>Build the dashboard layout for Project Phoenix.</p>
-        </div>
+        <div class="card task-card">
+  <h2>Today's Mission</h2>
+
+  <div class="task-input-row">
+    <input type="text" id="task-input" placeholder="Type a new task..." />
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <ul id="task-list"></ul>
+</div>
 
         <div class="card">
-          <h2>Progress</h2>
-          <p>2 out of 15 days completed.</p>
-        </div>
+  <h2>Progress</h2>
+  <p id="progress-text">0 out of 0 tasks completed.</p>
+</div>
 
         <div class="card">
           <h2>Quote of the Day</h2>
